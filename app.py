@@ -6,9 +6,6 @@ app = Flask(__name__)
 def home ():
     return render_template('index.html')
 
-@app.route('/Croacia')
-def viagem_croacia():
-    return render_template('Croacia.html')
 
 @app.route('/imagens')
 def imagens():
