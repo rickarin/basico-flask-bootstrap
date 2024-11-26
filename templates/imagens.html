@@ -1,36 +1,29 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Imagens Viagem</title>
+{% include 'partials/head.html' %}
 
-  <!-- Link do Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+{% include 'partials/nav.html' %}
 
+{% include 'partials/card.html' %}
 
-  
-</head>
-<body data-bs-theme="dark">
-
-  {% include 'partials/nav.html' %}
-
-  {% include 'partials/card.html' %}
-
-      <div class="container my-5">
-        <div class="row">
-          <div class="col-md-8 offset-md-2">
-            <div class="p-4 border rounded shadow-sm">
-              <h2 class="text-center mb-3">Descubra Novos Destinos</h2>
-              <p class="lead text-muted">Se você ama viajar, explorar novos lugares e compartilhar experiências, está no lugar certo! Este blog tem como objetivo inspirar você a planejar viagens incríveis e descobrir destinos ao redor do mundo.</p>
-              <p>Aqui, vamos compartilhar dicas sobre cultura local, gastronomia, atrações turísticas e tudo que você precisa saber para uma viagem inesquecível. Desde destinos exóticos até as melhores opções de viagem em sua cidade, temos conteúdos para todos os gostos e orçamentos.</p>
-              <p class="text-end">Continue acompanhando as postagens para mais dicas!</p>
-            </div>
-          </div>
-        </div>
+<div class="container my-5">
+  <div class="row">
+    <div class="col-md-8 offset-md-2">
+      <div class="p-4 border rounded shadow-sm">
+        <h2 class="text-center mb-3">Descubra Novos Destinos</h2>
+        <p class="lead text-muted">Se você ama viajar, explorar novos lugares e compartilhar experiências, está no
+          lugar certo! Este blog tem como objetivo inspirar você a planejar viagens incríveis e descobrir destinos ao
+          redor do mundo.</p>
+        <p>Aqui, vamos compartilhar dicas sobre cultura local, gastronomia, atrações turísticas e tudo que você
+          precisa saber para uma viagem inesquecível. Desde destinos exóticos até as melhores opções de viagem em sua
+          cidade, temos conteúdos para todos os gostos e orçamentos.</p>
+        <p class="text-end">Continue acompanhando as postagens para mais dicas!</p>
       </div>
-      
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
 </body>
+
 </html>
