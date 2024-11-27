@@ -1,0 +1,14 @@
+{% include 'partials/head.html' %}
+
+{% include 'partials/nav.html' %}
+
+<div class="container-md mt-5">
+    {% if teste %}
+        <h1> Teste caso verdadeiro </h1>
+    {% else %}
+        <h1> {{ nome }} </h1>
+        <h2> Teste 1 </h2>
+    {% endif %}
+</div>
+
+</body>
